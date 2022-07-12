@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+/RayTracing_ch01/RayTracing_ch01/Debug
+/RayTracing_ch01/.vs/RayTracing_ch01/v16
+/RayTracing_ch01/Debug

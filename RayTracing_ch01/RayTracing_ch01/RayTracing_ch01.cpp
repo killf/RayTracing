@@ -1,7 +1,4 @@
-﻿// RayTracing_ch01.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -19,9 +16,9 @@ void writePPM(int width, int height, string outFile) {
 			float r = (float)i / width;
 			float g = (float)j / height;
 			float b = 0.2f;
-			int ir = (int)(255.59f * r);
-			int ig = (int)(255.59f * g);
-			int ib = (int)(255.59f * b);
+			int ir = (int)(256.f * r);
+			int ig = (int)(256.f * g);
+			int ib = (int)(256.f * b);
 			stream << ir << " " << ig << " " << ib << "\n";
 		}
 	}
